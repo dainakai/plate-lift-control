@@ -1,0 +1,39 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python 3.11 on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: "0.10.6"
+          python-version: "3.11"
+          enable-cache: true
+      - name: Install locked dependencies
+        run: uv sync --locked
+      - name: Check style
+        run: uv run --locked ruff check .
+      - name: Test without USB hardware
+        run: uv run --locked pytest
+      - name: Verify user installation and command
+        run: |
+          uv sync --locked --no-dev
+          uv run --locked --no-dev platectl --help
+          uv run --locked --no-dev python examples/capture_sequence.py --cycles 2
+      - name: Build distribution
+        run: uv build
