@@ -8,6 +8,7 @@ htmlcov/
 dist/
 *.egg-info/
 .DS_Store
+.uuid
 Thumbs.db
 .env
 .env.*

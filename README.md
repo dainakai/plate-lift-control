@@ -1,7 +1,13 @@
 # plate-lift-control
 
 Pololu Tic T825で校正用ガラスプレートを上げ下げします。
-設定済みのR10/R11装置（68 mmストローク）向けです。
+設定済みの68 mmストロークの装置向けです。
+
+<img src="docs/images/motion.gif" alt="ガラスプレートが68 mm上下する3Dアセンブリの動作イメージ" width="600">
+
+購入部品を含む3Dモデルの動作イメージです（実機の撮影映像ではありません）。
+
+**[組立・取扱説明書（PDF）](docs/assembly-manual.pdf)** · [購入部材一覧](hardware/bom.md) · **[印刷用STL一式（ZIP）](hardware/print-parts.zip)**
 
 ## クイックスタート
 
@@ -52,7 +58,8 @@ Pythonとライブラリはuvが準備します。初回はインターネット
 
 ### 3. 上げる／下げる
 
-装置のUSBとモーター用電源を接続します。
+装置をパソコンへUSB接続し、モーター用のDC電源を接続します。
+**DC電源は24 V以下に設定してください。直流安定化電源の最大電圧が21.2 VでもOKです。**
 Tic Control Centerが起動中なら閉じてください（[Windowsでは同時にUSB接続できません](https://www.pololu.com/docs/0J71/4.4)）。
 以下はMacとWindowsで共通です。必要なほうを実行します。
 
@@ -90,6 +97,10 @@ Ticに保存済みの設定を使います。位置が不明な場合は、指�
 
 ## 必要なときに読む
 
+- [組立・取扱説明書（PDF）](docs/assembly-manual.pdf)／[編集用PowerPoint](docs/assembly-manual.pptx) — 最終更新日：2026年9月15日
+- [購入部材一覧](hardware/bom.md)／[CSV](hardware/bom.csv)
+- [印刷用STL一式（14部品・ZIP）](hardware/print-parts.zip)／[個別STL](hardware/stl/)／[印刷方法](hardware/printing.md)
+- [はめ合い確認用の試験片（ZIP）](hardware/fit-coupons.zip)
 - [操作、実験連携、更新の詳細](docs/reference.md)
 - [困ったとき](docs/troubleshooting.md)
 - [Ticを交換または初期化したときの設定](docs/tic-setup.md)

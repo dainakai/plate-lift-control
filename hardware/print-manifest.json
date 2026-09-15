@@ -1,0 +1,156 @@
+[
+  {
+    "part": "ベース_長手122mm",
+    "file": "ベース_長手122mm.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      74.0,
+      122.0,
+      35.0
+    ],
+    "sha256": "e0ee36de31c261dbeba105e47646461c51630fd07933cd303d9f24f189f25458"
+  },
+  {
+    "part": "駆動フレーム",
+    "file": "駆動フレーム.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      64.3,
+      203.5,
+      50.0
+    ],
+    "sha256": "d4101e081be6e1e12c35bb7b4ee5dfffd559424b023a2cf38dbc6bd12f92fee4"
+  },
+  {
+    "part": "軸受押さえ",
+    "file": "軸受押さえ.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      26.0,
+      26.0,
+      2.2
+    ],
+    "sha256": "cd652c7385d8d146f8d28db34af18bbc65a489e89ef37ad258084d288e7279d1"
+  },
+  {
+    "part": "電子箱_底板_Tic取付",
+    "file": "電子箱_底板_Tic取付.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      68.0,
+      63.0,
+      9.5
+    ],
+    "sha256": "1469fe9cf71272e9459626bd3ce77d2ff3d412bf8728ca815e8a6a3b772e43aa"
+  },
+  {
+    "part": "電子箱_天板",
+    "file": "電子箱_天板.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      68.0,
+      63.0,
+      5.0
+    ],
+    "sha256": "ba5a8a4170af1726b7f65877d1b919a4321d05496512cc0b2405c50b840459a7"
+  },
+  {
+    "part": "電子箱_USB側板",
+    "file": "電子箱_USB側板.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      61.6,
+      72.6,
+      10.0
+    ],
+    "sha256": "dd47d1d17df2284d4ac77244f289c0b4f9ca8f343177f695e1c442871e5a25c5"
+  },
+  {
+    "part": "電子箱_駆動側板",
+    "file": "電子箱_駆動側板.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      61.6,
+      72.6,
+      10.0
+    ],
+    "sha256": "9a8516b05d1e5a093f7884cde79a50af12cd4a0146d390e08b11201d12874a38"
+  },
+  {
+    "part": "電子箱_ヒューズ側板",
+    "file": "電子箱_ヒューズ側板.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      72.6,
+      63.0,
+      9.0
+    ],
+    "sha256": "8791a5543c8b160036400189359a2a46a37e10823219e3f3d7d09eb4faaafb91"
+  },
+  {
+    "part": "電子箱_電源スイッチ_XT60側板",
+    "file": "電子箱_電源スイッチ_XT60側板.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      72.6,
+      63.0,
+      3.0
+    ],
+    "sha256": "718b041df17e0e7cd36e7b41edb0f2179b8543ab587e163a90301824dec0a143"
+  },
+  {
+    "part": "ガラスホルダー本体",
+    "file": "ガラスホルダー本体.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      104.0,
+      81.0,
+      8.8
+    ],
+    "sha256": "36d6a2936f6c322f656fc2fd717982abe8907b6407412ecdd5a4a73e86da1de9"
+  },
+  {
+    "part": "ガラスホルダー前枠",
+    "file": "ガラスホルダー前枠.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      67.0,
+      81.0,
+      3.4
+    ],
+    "sha256": "36bb840978c4c82166186392b212e05989d6fa51c9e0c3fab58b70e4783013e9"
+  },
+  {
+    "part": "レールブロック取付板",
+    "file": "レールブロック取付板.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      23.0,
+      24.0,
+      9.0
+    ],
+    "sha256": "2ce8cd64c804e1cc9d33a412ecfc46193c17b095d6fa00c4fb554b8e7030f42c"
+  },
+  {
+    "part": "黄銅ナット取付板",
+    "file": "黄銅ナット取付板.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      92.0,
+      28.0,
+      10.0
+    ],
+    "sha256": "74e37b629e59764809356a1b658db561327ad9e5d59b4a921d27ec0d16733458"
+  },
+  {
+    "part": "ガラスホルダー接続腕",
+    "file": "ガラスホルダー接続腕.stl",
+    "quantity": 1,
+    "print_dimensions_mm": [
+      37.0,
+      55.0,
+      6.0
+    ],
+    "sha256": "05b147c6bc2309503a7c26505834e7918afe67bdb27ab16c60807947af3f4bcf"
+  }
+]
